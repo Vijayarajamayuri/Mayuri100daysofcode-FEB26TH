@@ -6,12 +6,14 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 
 #Write your code below this line 👇
-bill= input("Enter the total bill: ")
+bill= input("Enter the total bill: $")
 No= input("eNTER NO OF PEOPLE: ")
+Tip= input("Enter the tip between 10,12,15")
 total= float(bill)
 NUM= int(No)
+tip= int(Tip)
 # type(bill)
 # print(type(bill)) is string 
-Split= (total / NUM ) * 1.12
-print(round(Split,2))
+Split= ((total / NUM ) * (1+ tip / 100))
+print(f"Each person should pay ${round(Split,2)}")
 
