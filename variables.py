@@ -6,6 +6,11 @@ b = input("b: ")
 ####################################
 #Write your code below this line 👇
 
+# basically swap variables 
+# introduice a new variable and make them c to a and a to b and then b to a then all will SWAP 
+
+# basically 
+
 c= a
 a= b 
 b= c
